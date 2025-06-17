@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true") // match frontend port
+@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true") // match frontend port
 public class AuthController {
 
     @Autowired
